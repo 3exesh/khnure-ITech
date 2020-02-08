@@ -1,1 +1,27 @@
-
+.main_pg
+{
+    background       : #d4faff;
+    background-image : url(../res/bg_m.png);
+ }
+.lbw_pg
+{
+    background       : #f7e5ab;
+    background-image : url(../res/bg_lbw.png);
+ }
+*
+{
+    font-family : 'Comic Sans MS';
+}
+.frontNameHeadline
+{
+    color       : #000000;
+    font-size   : 30px; 
+    font-weight :bold; 
+}
+.frontName_SubInfo
+{
+    color       : #000000;
+    font-size   : 19px;   
+    
+}
+    
