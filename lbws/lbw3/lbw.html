@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html> 
+  
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title> 
+            Лабораторная работа №3 - Отработка Даций В.В. КИУКИ-17-2
+        </title>
+        <link rel="stylesheet"         href="../res/baseStyleSheet.css">
+        <link rel="stylesheet"         href="../res/lbw3/StyleSheet.css">
+        <script type="text/javascript" src="../res/lbw3/javeScripts.js"></script>
+    </head> 
+
+
+    <body class="lbw_pg">
+        <p class="frontNameHeadline">
+               Лабораторная работа №3
+        </p> 
+        <p class="frontName_SubInfo">
+            Вариант №2 <br>
+        </p>
+
+        <ul>
+            <li>
+                <dt>
+                    <p style="color: red;">Случайно начал выполнять не свой вариант, но решил не удалаять</p>
+                    В папке images вашего ресурса находятся изображения 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg, 6.jpg, 7.jpg, 8.jpg, 9.jpg.<br> 
+                    На странице выводится первое изображение из этой папки, присутствуют управляющие элементы,<br>
+                    позволяющие менять параметры изображения (ширина, высота, толщина рамки, альтернативный текст).<br>
+                    По нажатию на изображение менять его на случайное из папки images.<br>
+                </dt>
+                <dd>
+                    <p>
+                        ИГРА : СВИДАНИЕ ВСЛЕПУЮ
+                    </p>
+                    Правила очень просты: Вас с закрытыми глазами <br>
+                    сажают за столик с неизвестным человком,
+                    и только после этого открываете галаза.
+                    <table> 
+                        <tr>
+                            <td class="img_tableStyle">
+                                <img src="../res/lbw3/img/intro.jpg" id="img_inTableImage" alt="Фото вашего собеседника!">
+                            </td>
+                        </tr>
+                    </table>
+                    <table > 
+                        <tr>
+                            <td class="img_ButtonAndInfo_tableStyle">
+                                <div id  = "img_infoBar"> Нажми "Сесть" чтобы сесть вслепую</div><!-- Навпротив тебя оказалась она -->
+                                <button type="button" id="img_sitBtnStyle" OnClick="sitBtn_Cliced();">Сесть</button>
+                            </td>
+                        </tr>
+                    </table>
+                </dd>
+            </li>
+
+            <!-- Мой вариант -->
+            <li>
+                <dt>
+                    <p style="color: green;">Мой вариант</p>
+                    На странице представлена галерея рисунков и кнопки "выше" и "ниже" для изменения их порядка.<br>
+                    Написать сценарий, который реализует смену порядка рисунков в документе, а также предоставить<br>
+                     возможность изменять параметры изображений (ширину и высоту).
+                </dt>
+                <br>
+                <p>
+                    Выделите изображение.
+                </p>
+                <dd>
+                    <div id="imageTable">
+                        <img src="../res/lbw3/img2/c1.jpg" class="images_selectable_cls" id="imgage_selectable_0" OnClick="imageSelectable_Clicked(0);">
+                        <img src="../res/lbw3/img2/c2.jpg" class="images_selectable_cls" id="imgage_selectable_1" OnClick="imageSelectable_Clicked(1);">
+                        <img src="../res/lbw3/img2/c3.jpg" class="images_selectable_cls" id="imgage_selectable_2" OnClick="imageSelectable_Clicked(2);">
+                        <img src="../res/lbw3/img2/c5.jpg" class="images_selectable_cls" id="imgage_selectable_3" OnClick="imageSelectable_Clicked(3);">
+                    </div>
+                    <br>
+                    <div class="imageTable_ControlButtonsTable">
+                        <button disabled type="button" class="imagCtrl_BtnStyle" id="image_left_btn"  OnClick="left_Btn_Cliced();" >Переместить влево </button>
+                        <button disabled type="button" class="imagCtrl_BtnStyle" id="image_rigth_btn" OnClick="rigth_Btn_Cliced();">Переместить вправо</button>
+                    </div>
+                    <div class="imageTable_ControlButtonsTable">
+                        <button type="button" class="imagCtrl_BtnStyle" id="image_dw_btn" OnClick="dw_Btn_Cliced();">Уменьшить размер</button>
+                        <button type="button" class="imagCtrl_BtnStyle" id="image_rs_btn" OnClick="rs_Btn_Cliced();">Увеличить размер</button>
+                    </div>
+                </dd> 
+            </li>
+        </ul>
+            
+
+
+        <a href="../index.html"> Вернуться к выбору лабораторных</a>
+    </body> 
+</html>
+
+

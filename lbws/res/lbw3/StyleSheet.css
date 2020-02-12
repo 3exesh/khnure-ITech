@@ -1,0 +1,65 @@
+/* Не мой варинт*/
+.img_tableStyle
+{
+    display: block;
+    table-layout: fixed;
+    border: 1px solid black;
+    height: 420px;
+    width : 420px;
+ 
+    text-align: center;
+}
+
+.img_ButtonAndInfo_tableStyle
+{
+    border: 1px solid black;
+    width : 420px;
+}
+
+#img_inTableImage
+{
+    max-height: 100%;
+    max-width : 100%;
+}
+
+#img_sitBtnStyle,
+#img_infoBar
+{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+
+/* Мой варинт*/
+#imageTable
+{
+    display: flex;
+    table-layout: fixed;
+    border: 3px solid black;
+
+    width : max-content;
+}
+
+.images_selectable_cls
+{
+    display: block;
+    table-layout: fixed;
+    border: 5px solid gray;
+    
+    width : 200px;
+    height: 200px;
+}
+
+.imagCtrl_BtnStyle
+{
+    min-width: 200px;
+}
+
+.imageTable_ControlButtonsTable
+{
+    display: flex;
+    border: 1px solid black;
+    width : max-content;
+}
+
+

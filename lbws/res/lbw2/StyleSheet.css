@@ -1,0 +1,108 @@
+.ex2styleSectionDeclaraion_CSSFile, 
+#exercise_3_IdStyleSetExample, 
+.ex3styleSectionDeclaraion_inFile,
+.ex4_exampleColor,
+.ex4_AbsolPosition,
+.ex4_RelPosition,
+.ex5_FloatPosition,
+.ex5_AroundFloatPosition
+{
+    color       :rgb(202, 52, 122);
+    font-size   : 20px;
+    font-weight : bold;
+}
+.ex3styleSectionDeclaraion_inFile
+{
+    color       :rgb(45, 165, 34);
+}
+    
+#exercise_3_IdStyleSetExample
+{
+    color       :rgb(45, 165, 34); 
+}
+
+.ex4_AbsolPosition,
+.ex4_RelPosition,
+.ex4_exampleColor
+{
+    color       :rgb(21, 31, 175);
+}
+
+.ex4_AbsolPosition
+{
+    position: absolute;
+	top     : 484px;
+	left    : 90px;
+}
+.ex4_RelPosition
+{
+    position: relative;
+	top     : 0px;
+	left    : 0px;
+}
+.ex5_AroundFloatPosition
+{
+    color   : rgb(134, 28, 90);
+}
+.ex5_FloatPosition
+{
+    float   : left;
+    color   :rgb(160, 38, 38);
+}
+.ex6_FlexBox
+{
+    display    : flex;
+    flex-wrap  : wrap;
+    height     : 250px;
+    width      : 240px;
+
+    justify-content : space-evenly;
+
+    border: 1px solid;
+    padding: 5px;
+}
+
+.FB_div_1
+{
+    background : rgb(141, 152, 255);
+    align-self : flex-start;
+
+}
+.FB_div_2
+{
+    background : rgb(141, 152, 240);
+    align-self : stretch;
+
+
+}
+.FB_div_3
+{
+    background : rgb(141, 152, 230);
+    align-self : flex-start;
+}
+.FB_div_4
+{
+    background : rgb(141, 152, 220);
+    align-self : flex-end;
+}
+
+.FB_div_5
+{
+    background : rgb(141, 152, 210);
+    align-self : flex-end;
+}
+
+.FB_div_6
+{
+    background : rgb(141, 152, 200);
+    align-self : flex-end;
+}
+
+.ex6_listMarck 
+{
+    list-style-type: none;
+}
+.ex6_listMarck li::before
+{
+    content: "<🔥✉️❤️>- ";
+}
