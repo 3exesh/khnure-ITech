@@ -78,7 +78,10 @@
 		
 		
 	?>
-
+	
+	<br>
+	<br>
+	<br>
 	<a href="sesionEx.php">Страница проверки работы "startsesion"</a>
 	<br>
 	<br>
@@ -86,18 +89,15 @@
 	<br>
 	Исходник в формате txt:
 	<br>
-	<p>
-		index.php:
+
 		<p>
-			<a href="https://3exesh.github.io/khnure-ITech/lbws/lbw4/index.txt">Страница проверки работы "startsesion"</a>
+			<a href="https://3exesh.github.io/khnure-ITech/lbws/lbw4/index.txt">index.php</a>
 		</p>
-	</p>
-	<p>
-		sesionEx.php:
+
 		<p>
-			<a href="https://3exesh.github.io/khnure-ITech/lbws/lbw4/sesionEx.txt">Страница проверки работы "startsesion"</a>
+			<a href="https://3exesh.github.io/khnure-ITech/lbws/lbw4/sesionEx.txt">sesionEx.php</a>
 		</p>
-	</p>
+
 	<br>
 	<br>
 	<br>

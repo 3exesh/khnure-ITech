@@ -52,8 +52,12 @@
 
     ?>
 
-
+    <br>
+    <br>
+    <br>
+    <a href="http://37.57.59.199:8080/"> Вернуться к текущей лабораторной</a>
 	<a href="https://3exesh.github.io/khnure-ITech/lbws/"> Вернуться к выбору лабораторных</a>
+    <br>
     </body>
 
 </body> 
